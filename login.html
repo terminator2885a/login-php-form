@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaloguj się</title>
+</head>
+<body>
+    <h1>Portal internetowy - formularz logowania</h1>
+    <form action="../Logowanie/" method="post">
+        <label for="usrname">Login: </label><input type="text" id="usrname" name="usrname" required><br>
+        <label for="passwd">Hasło: </label><input type="password" id="passwd" name="passwd" required><br>
+        <input type="submit" name="submit" value="Zaloguj się">
+    </form>
+    <h2>Zarejestruj się</h2>
+    <form action="../Logowanie/" method="post">
+        <label for="log">Login: </label><input type="text" id="log" name="log" required><br>
+        <label for="pass">Hasło: </label><input type="password" id="pass" name="pass" required><br>
+        <input type="submit" name="register" value="Zarejestruj się">
+    </form>
+</body>
+</html>
